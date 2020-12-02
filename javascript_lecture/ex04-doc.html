@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>getElementById 예제</title>
+</head>
+<body>
+    <script>
+        function changeColor(newColor) {
+    var elem = document.getElementById('para');
+    elem.style.color = newColor;
+    }
+
+    
+    </script>
+  <p id="para">어떤 글</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+  <script>
+//       document.write("현재 사용 중인 브라우저의 이름은 " + navigator.appName + "입니다.<br>");
+//       document.write("또한, 해당 브라우저의 코드명은 " + navigator.appCodeName + "입니다.");
+//       document.write("현재 사용 중인 브라우저의 버전 정보는 " + navigator.appVersion + "입니다.<br><br>");
+
+// document.write("userAgent 프로퍼티로 알 수 있는 추가 정보는 " + navigator.userAgent + "입니다.");
+document.write("현재 문서의 주소는 " + location.href + "입니다.");
+var loc = location.href
+console.log(loc)
+  </script>
+</body>
+</html>

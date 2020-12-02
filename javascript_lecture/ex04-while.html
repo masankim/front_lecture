@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <script>
+            document.write("<tr>");
+            document.write("<td>Value</td>")
+            
+            fib1 = 1;
+            fib2 = 1;
+            while (fib2<1000){
+                document.write("<td>");
+                document.write(fib2);
+                document.write("</td>");
+                tmp  = fib1 + fib2
+                fib1 = fib2
+                fib2 = tmp
+
+            }
+
+            document.write("</tr>")
+        </script>
+    </table>
+</body>
+</html>

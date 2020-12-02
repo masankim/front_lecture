@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var data =  {
+            secondName:{
+                a:3,
+                b:4,
+                c:5
+            },
+            firstName:"Taekoung",
+            nameFunc:function (){
+                document.write("안녕하세요")
+            }
+        }
+
+        document.write(data.secondName.a+data.secondName.b*data.secondName.c )
+        document.write(data.firstName +"<br>")
+        data.nameFunc() 
+    </script>
+</body>
+</html>
